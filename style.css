@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(32, 32, 32);
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar-s1__title {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: #A435F0;
+}
+
+.navbar-s2 {
+    border: black 1px solid;
+    width: 60%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    gap: 10px;
+}
+
+.navbar-s2__icon {
+    display: flex;
+}
+
+.navbar-s2 input {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.navbar-s3 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar-s3__title1,
+.navbar-s3__title2 {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: large;
+}
+
+.navbar-two {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.navbar-two h3 {
+    background-color: #A435F0;
+    color: white;
+    margin: 5px;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid #A435F0;
+    cursor: pointer;
+}
+
+.navbar-two h3:hover {
+    background-color: white;
+    color: #A435F0;
+    border: 1px solid #A435F0;
+    /* Keeps the outline visible on a white page */
+}
+
+.sale-image img {
+    width: 100%;
+    height: 100%
+}
+
+.recommended {
+    padding: 10px;
+}
+
+.recommended h1 {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.recommended p{
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.recommended__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.course-card {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid #d1d7dc;
+}
+
+.recommended__container h3 {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.course-card h3{
+    margin-top:5px;
+}
+
+.course-card p{
+    margin-top:5px;
+}
+
+.topics h1{
+    padding:10px;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: small;
+}
+
+.topics-container{
+    display:flex;
+    gap: 10px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.topics-container p{
+    padding:10px;
+    border:1px darkgray solid;
+    margin:5px;
+    flex-grow:1;
+    flex-basis:25%;
+}
+
+.recommended {
+    padding: 10px;
+}
+
+.recommended h1 {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.recommended p{
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.recommended__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.course-card {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid #d1d7dc;
+}
+
+.recommended__container h3 {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.footer__one {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 40px;
+}
+
+.footer__one__s1, 
+.footer__one__s2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.footer__one p {
+    margin: 0;
+}
+
+.footer__two {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+}
