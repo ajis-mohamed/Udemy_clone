@@ -134,8 +134,23 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    
+    opacity: 0;
+    animation: zoom 1s ease-out;
+    animation-fill-mode: forwards;
 }
+
+@keyframes zoom {
+    0%{
+        transform:scale(0.8);
+        opacity: 50%;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity:100%;
+    }
+}
+
 
 .recommended {
     padding: 10px;
